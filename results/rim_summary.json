@@ -1,0 +1,16 @@
+{
+  "games": 63,
+  "opponent_attempts": 5726,
+  "rim_attempts": 1436,
+  "bootstrap_replicates": 2000,
+  "comparison": "Within games with both Wembanyama-on and Wembanyama-off opponent attempts",
+  "primary": {
+    "outcome": "Rim share",
+    "estimate": -0.04634962448047067,
+    "lower": -0.07031735590945579,
+    "upper": -0.022553071808928495,
+    "games": 63,
+    "attempts": 5726,
+    "controls": true
+  }
+}

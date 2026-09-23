@@ -1,0 +1,10 @@
+{
+  "later_attempts": 4350,
+  "pooled_group_logloss": 0.6224396707597606,
+  "early_team_logloss": 0.6217451389753877,
+  "loss_difference": {
+    "difference": 0.0006945317843728915,
+    "lower": -0.0019218984369957298,
+    "upper": 0.003294794845230998
+  }
+}

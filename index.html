@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Spurs research notebook</title>
+<meta name="description" content="Joseph Smarrelli · September 2026">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&display=swap">
+<style>
+:root{
+  --surface:#fcfcfb; --raised:#f4f3ef; --ink:#0b0b0b; --ink-2:#43423f; --ink-3:#7d7b74;
+  --rule:#e3e2dc; --accent:#1c5cab; --mark:#eb6834;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --surface:#14140f; --raised:#1e1e18; --ink:#f2f1ec; --ink-2:#c9c7bf; --ink-3:#8d8b83;
+    --rule:#2e2e27; --accent:#7fb0f0; --mark:#f2895a;
+  }
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--surface); color:var(--ink);
+  font:400 17px/1.62 "Source Sans 3","Source Sans Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  font-feature-settings:"kern" 1;
+}
+.wrap{max-width:1020px;margin:0 auto;padding:0 22px}
+.bar{border-bottom:1px solid var(--rule);background:var(--surface)}
+.bar .wrap{display:flex;flex-wrap:wrap;gap:10px 22px;align-items:baseline;padding-top:16px;padding-bottom:15px}
+.bar .slug{
+  font-family:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  font-size:12.5px;letter-spacing:.02em;color:var(--ink-2)
+}
+.bar nav{margin-left:auto;display:flex;gap:18px}
+.bar a{
+  font-family:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  font-size:12.5px;color:var(--ink-3);text-decoration:none;border-bottom:1px solid transparent
+}
+.bar a:hover{color:var(--accent);border-bottom-color:var(--accent)}
+main{padding:0 0 96px}
+.col{max-width:700px}
+h1{
+  font-family:Archivo,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight:700;font-size:clamp(30px,5.4vw,46px);line-height:1.08;
+  letter-spacing:-.022em;margin:54px 0 20px;max-width:640px
+}
+h2{
+  font-family:Archivo,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight:600;font-size:22px;line-height:1.24;letter-spacing:-.012em;
+  margin:52px 0 14px;max-width:700px
+}
+h3{font-family:Archivo,"Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:600;
+  font-size:18.5px;letter-spacing:-.008em;margin:40px 0 8px}
+p.meta{font-size:14.5px;color:var(--ink-3);margin:-2px 0 16px}
+p.meta a{border-bottom-color:transparent}
+p.meta a:hover{border-bottom-color:currentColor}
+p{margin:0 0 18px;max-width:700px}
+p strong{font-weight:600}
+a{color:var(--accent);text-decoration:none;border-bottom:1px solid rgba(28,92,171,.32)}
+a:hover{border-bottom-color:currentColor}
+hr{border:0;border-top:1px solid var(--rule);margin:46px 0}
+ul,ol{margin:0 0 18px;padding-left:22px;max-width:700px}
+li{margin:0 0 8px}
+li>p{margin:0 0 8px}
+code{
+  font-family:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  font-size:.86em;background:var(--raised);padding:.12em .34em;border-radius:3px
+}
+pre{
+  background:var(--raised);border:1px solid var(--rule);border-radius:5px;
+  padding:15px 17px;overflow-x:auto;margin:0 0 22px;max-width:820px
+}
+pre code{background:none;padding:0;font-size:13px;line-height:1.55}
+em{color:var(--ink-2)}
+.tw{overflow-x:auto;margin:0 0 26px;max-width:980px}
+table{border-collapse:collapse;font-size:14.5px;min-width:100%}
+th,td{padding:7px 15px 7px 0;text-align:left;border-bottom:1px solid var(--rule);white-space:nowrap}
+th{
+  font-family:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+  font-size:11.5px;text-transform:uppercase;letter-spacing:.055em;
+  color:var(--ink-3);font-weight:500;border-bottom-color:var(--ink-3);white-space:normal
+}
+td.num{text-align:right;font-variant-numeric:tabular-nums;padding-right:22px}
+th.num{text-align:right;padding-right:22px}
+tbody tr:last-child td{border-bottom:0}
+figure{margin:30px 0 34px;max-width:980px}
+figure img{display:block;width:100%;height:auto;border:1px solid var(--rule);border-radius:4px}
+.foot{border-top:1px solid var(--rule);padding:22px 0 40px}
+.foot .wrap{
+  font-family:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+  font-size:11.5px;color:var(--ink-3);display:flex;flex-wrap:wrap;gap:8px 20px
+}
+@media (max-width:560px){
+  body{font-size:16px}
+  .wrap{padding:0 16px}
+  h1{margin-top:36px}
+  th,td{padding-right:14px}
+}
+</style>
+</head>
+<body>
+<header class="bar"><div class="wrap"><span class="slug">spurs-research</span><nav><a href="https://github.com/jmsmarrelli/spurs-research">repository</a><a href="https://jmsmarrelli.github.io/basketball-analytics/">all projects</a></nav></div></header>
+<main><div class="wrap">
+<h1>Spurs research notebook</h1>
+<p>Joseph Smarrelli · September 2026</p>
+<p>Three studies of San Antonio basketball: where opponents shoot during Wembanyama’s minutes, what the three-guard combinations can tell us, and how his playoff scoring changed against matched opponents.</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Study</th>
+<th>Finding</th>
+<th>Main methods</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="reports/01_wembanyama_rim_footprint.html">Where Wembanyama changes the shot map</a></td>
+<td>Adjusted opponent rim-attempt share is 4.6 percentage points lower with him on; the finishing difference is uncertain.</td>
+<td>Substitution reconstruction, game fixed effects, game bootstrap, sensitivity checks</td>
+</tr>
+<tr>
+<td><a href="reports/02_three_guards_eight_groups.html">Three guards, eight groups, one small sample</a></td>
+<td>The Fox–Castle–Harper group has 46 attempts; group forecasts do not beat an early team-rate baseline on later shots.</td>
+<td>Mutually exclusive personnel groups, prior smoothing, chronological validation, SQL windows</td>
+</tr>
+<tr>
+<td><a href="reports/03_wembanyama_playoff_shot_diet.html">Did Wembanyama need a different playoff shot diet?</a></td>
+<td>Within-zone conversion contributes more to the observed scoring decline than location mix; only nine regular-season comparison games are available.</td>
+<td>Opponent weighting, symmetric decomposition, stratified game bootstrap</td>
+</tr>
+</tbody>
+</table></div>
+<figure><img loading="lazy" alt="Wembanyama adjusted rim comparison" src="figures/rim_adjusted.png"></figure>
+<p>Each study includes a finished article, an executed notebook and three figures in PNG and SVG. HTML articles embed their images and open without a server. SQL queries, derived records and audit tables are included. The articles specify the decisions these data can support and the additional information needed for a coaching recommendation.</p>
+<h2>Reproduce</h2>
+<p>Python 3.12 was used for the delivered run. From the repository root:</p>
+<pre><code class="language-sh">python -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+python -m src.run_all --fetch
+python -m unittest discover -s tests -v
+python -m src.notebooks
+</code></pre>
+<p>On Windows, activate <code>.venv\Scripts\activate</code> instead. The fetch step downloads five pinned archives, verifies SHA-256 checksums and extracts CSV inputs. It needs internet access and roughly 700 MB of free working space including the Python environment. Subsequent runs can omit <code>--fetch</code> while raw files remain present. Notebooks start a local Python kernel; they do not call external models or services.</p>
+<p>The checked-in derived data allow the tests and <code>python -m src.data sql</code> to run without downloading the raw archive. Recomputing the studies requires the raw inputs. No API key is needed. The notebook builder runs each analysis, regenerates its figures and stores executed outputs.</p>
+<h2>Files</h2>
+<ul>
+<li><code>reports/</code>: three articles in Markdown and self-contained HTML.</li>
+<li><code>notebooks/</code>: three executed notebooks with calculations, diagnostics and figures.</li>
+<li><code>src/</code>: data retrieval, lineup reconstruction, models, reporting and export.</li>
+<li><code>sql/</code>: indexed shot summaries and full-five stint construction with window functions.</li>
+<li><code>data/</code>: source manifest and derived event/shot tables. Raw downloads are excluded from version control.</li>
+<li><code>results/</code>: estimates, uncertainty, sample exclusions and a possession review queue.</li>
+<li><code>figures/</code>: nine PNG figures and their editable SVG versions.</li>
+<li><code>tests/</code>: reconstruction, mathematics, data integrity and SQL reconciliation checks.</li>
+</ul>
+<p>Read <a href="https://github.com/jmsmarrelli/spurs-research/blob/main/METHODS.md">METHODS.md</a> for assumptions and <a href="https://github.com/jmsmarrelli/spurs-research/blob/main/VALIDATION.md">VALIDATION.md</a> for the checks performed.</p>
+<h2>Scope and sources</h2>
+<p>The regular-season rotation work uses 2025–26. The playoff study uses 2026 and supplies full-season shooting context from 2023–24 onward. These are completed historical studies, not current roster forecasts.</p>
+<p>NBA data are accessed through <a href="https://github.com/shufinskiy/nba_data">shufinskiy/nba_data</a>, pinned at commit <code>e829d4678be1e075f99e5d41a1c5f97089be446b</code>. The manifest records source URLs and archive hashes. That archive is maintained outside the NBA; feed conflicts and missing samples are documented in the results. Reconstructed lineups have not been independently reconciled to official box-score minutes.</p>
+<p>The code is MIT licensed. Source data retain their original rights and terms; this repository does not relicense NBA data. Full raw archives are not bundled. No team logos or stock imagery are used.</p>
+</div></main>
+<footer class="foot"><div class="wrap"><span>spurs-research</span><span>figures and tables regenerated by the pipeline in this repository</span></div></footer>
+</body>
+</html>

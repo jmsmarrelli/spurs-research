@@ -1,0 +1,29 @@
+{
+  "guard_combinations": 8,
+  "team_attempts": 7275,
+  "reconstructed_minutes": 3893.0,
+  "three_guard_group": {
+    "group": "Fox + Castle + Harper",
+    "minutes": 25.238333333333333,
+    "games": 13,
+    "attempts": 46,
+    "rim_share": 0.4782608695652174,
+    "rim_boot_low": 0.27446524064171124,
+    "rim_boot_high": 0.6818181818181818,
+    "three_share": 0.32608695652173914,
+    "ppa": 0.9782608695652174,
+    "ppa_low": 0.6,
+    "ppa_high": 1.3,
+    "wemby_shot_share": 0.30434782608695654,
+    "rim_posterior": 0.36447722749092615,
+    "rim_low90": 0.3002284656743256,
+    "rim_high90": 0.4308443640291724,
+    "early_attempts": 0,
+    "late_attempts": 46,
+    "early_rim_forecast": 0.3121367521367521,
+    "late_rim_share": 0.4782608695652174
+  },
+  "early_rim_prior": 0.3121367521367521,
+  "prior_strength": 100,
+  "assisted_makes_by_guards": 1192
+}

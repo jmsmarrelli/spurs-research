@@ -1,0 +1,41 @@
+{
+  "unsupported_opponents_excluded": [
+    "POR"
+  ],
+  "unsupported_opponent_attempts_excluded": 48,
+  "inconsistent_zone_attempts_excluded": 1,
+  "regular_games": 9,
+  "regular_attempts": 133,
+  "playoff_games": 18,
+  "playoff_attempts": 314,
+  "opponents": [
+    "MIN",
+    "NYK",
+    "OKC"
+  ],
+  "playoff_last_date": "2026-06-13",
+  "matched_regular_ppa": 1.204191201335941,
+  "playoff_ppa": 1.0350318471337578,
+  "raw_matched_regular_ppa": 1.1804511278195489,
+  "components": [
+    {
+      "component": "Shot-location mix",
+      "estimate": 0.040373142803564466,
+      "lower": -0.001963572204367843,
+      "upper": 0.10289477449961962
+    },
+    {
+      "component": "Within-zone conversion",
+      "estimate": -0.20953249700574747,
+      "lower": -0.4629821164890986,
+      "upper": -0.01114551240923344
+    },
+    {
+      "component": "Total FG scoring change",
+      "estimate": -0.1691593542021832,
+      "lower": -0.4050025577609504,
+      "upper": 0.037440173362776746
+    }
+  ],
+  "bootstrap": "2,000 independent game resamples within each phase and opponent; playoff-opponent weights fixed"
+}

@@ -1,0 +1,25 @@
+group,game_id,event_id,period,clock,shooter,lineup_ids,url
+Castle,22500004,18,1,PT10M45.00S,Devin Vassell,203084|1630170|1630577|1641705|1642264,https://www.nba.com/game/0022500004/play-by-play
+Castle,22500004,23,1,PT10M18.00S,Victor Wembanyama,203084|1630170|1630577|1641705|1642264,https://www.nba.com/game/0022500004/play-by-play
+Castle,22500004,37,1,PT09M16.00S,Victor Wembanyama,203084|1630170|1630577|1641705|1642264,https://www.nba.com/game/0022500004/play-by-play
+Castle + Harper,22500004,104,1,PT04M44.00S,Dylan Harper,1628436|1629640|1630170|1642264|1642844,https://www.nba.com/game/0022500004/play-by-play
+Castle + Harper,22500004,362,2,PT01M33.00S,Devin Vassell,1629640|1630170|1641705|1642264|1642844,https://www.nba.com/game/0022500004/play-by-play
+Castle + Harper,22500004,369,2,PT01M16.00S,Dylan Harper,1629640|1630170|1641705|1642264|1642844,https://www.nba.com/game/0022500004/play-by-play
+Fox,22500188,163,2,PT11M38.00S,Keldon Johnson,1628368|1629640|1630577|1641705|1642868,https://www.nba.com/game/0022500188/play-by-play
+Fox,22500188,165,2,PT11M10.00S,Keldon Johnson,1628368|1629640|1630577|1641705|1642868,https://www.nba.com/game/0022500188/play-by-play
+Fox,22500188,172,2,PT09M58.00S,Carter Bryant,1628368|1629640|1630577|1641705|1642868,https://www.nba.com/game/0022500188/play-by-play
+Fox + Castle,22500188,7,1,PT11M42.00S,Harrison Barnes,203084|1628368|1630170|1641705|1642264,https://www.nba.com/game/0022500188/play-by-play
+Fox + Castle,22500188,9,1,PT11M37.00S,Devin Vassell,203084|1628368|1630170|1641705|1642264,https://www.nba.com/game/0022500188/play-by-play
+Fox + Castle,22500188,13,1,PT11M00.00S,De'Aaron Fox,203084|1628368|1630170|1641705|1642264,https://www.nba.com/game/0022500188/play-by-play
+Fox + Castle + Harper,22500476,706,4,PT02M07.00S,De'Aaron Fox,1628368|1628436|1629640|1642264|1642844,https://www.nba.com/game/0022500476/play-by-play
+Fox + Castle + Harper,22500476,712,4,PT01M37.00S,Stephon Castle,1628368|1628436|1629640|1642264|1642844,https://www.nba.com/game/0022500476/play-by-play
+Fox + Castle + Harper,22500490,121,1,PT02M30.00S,Stephon Castle,203482|1628368|1629640|1642264|1642844,https://www.nba.com/game/0022500490/play-by-play
+Fox + Harper,22500067,586,4,PT09M31.00S,De'Aaron Fox,1628368|1628436|1630322|1630577|1642844,https://www.nba.com/game/0022500067/play-by-play
+Fox + Harper,22500067,598,4,PT09M07.00S,Kelly Olynyk,203084|203482|1628368|1630577|1642844,https://www.nba.com/game/0022500067/play-by-play
+Fox + Harper,22500067,600,4,PT09M05.00S,Julian Champagnie,203084|203482|1628368|1630577|1642844,https://www.nba.com/game/0022500067/play-by-play
+Harper,22500004,123,1,PT03M47.00S,Devin Vassell,1628436|1629162|1629640|1630170|1642844,https://www.nba.com/game/0022500004/play-by-play
+Harper,22500004,128,1,PT03M19.00S,Devin Vassell,1628436|1629162|1629640|1630170|1642844,https://www.nba.com/game/0022500004/play-by-play
+Harper,22500004,140,1,PT02M51.00S,Devin Vassell,1628436|1629640|1630170|1641705|1642844,https://www.nba.com/game/0022500004/play-by-play
+None of the three,22500004,192,1,PT00M03.90S,Victor Wembanyama,203084|1629162|1629640|1630577|1641705,https://www.nba.com/game/0022500004/play-by-play
+None of the three,22500004,711,4,PT00M59.90S,David Jones Garcia,202687|1631127|1642357|1642434|1642868,https://www.nba.com/game/0022500004/play-by-play
+None of the three,22500004,717,4,PT00M37.30S,Harrison Ingram,202687|1631127|1642357|1642434|1642868,https://www.nba.com/game/0022500004/play-by-play

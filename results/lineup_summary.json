@@ -1,0 +1,17 @@
+{
+  "spurs_games": 82,
+  "cross_source_games_excluded": 1,
+  "retained_games": 81,
+  "periods_total": 330,
+  "periods_retained": 325,
+  "eligible_fga": 14642,
+  "all_spurs_game_fga": 14840,
+  "shot_coverage": 0.9866576819407008,
+  "fg_linkage_in_valid_periods": 1.0,
+  "status_counts": {
+    "valid": 325,
+    "cross-source game disagreement": 4,
+    "4 inferred starters": 1
+  },
+  "substitution_checks": "Five starters, outgoing identity, active actors, and complete period clock required"
+}
