@@ -1,5 +1,7 @@
 # Spurs research notebook
 
+[Read the basketball decision brief](reports/00_decision_brief.md) · [Visual design and rebuild](tools/VISUALS.md)
+
 Joseph Smarrelli · September 2026
 
 Three studies of San Antonio basketball: where opponents shoot during Wembanyama’s minutes, what the three-guard combinations can tell us, and how his playoff scoring changed against matched opponents.
@@ -51,3 +53,7 @@ The regular-season rotation work uses 2025–26. The playoff study uses 2026 and
 NBA data are accessed through [shufinskiy/nba_data](https://github.com/shufinskiy/nba_data), pinned at commit `e829d4678be1e075f99e5d41a1c5f97089be446b`. The manifest records source URLs and archive hashes. That archive is maintained outside the NBA; feed conflicts and missing samples are documented in the results. Reconstructed lineups have not been independently reconciled to official box-score minutes.
 
 The code is MIT licensed. Source data retain their original rights and terms; this repository does not relicense NBA data. Full raw archives are not bundled. No team logos or stock imagery are used.
+
+## Current review
+
+See [current validation](VALIDATION_CURRENT.md) for executed checks and unresolved rebuild requirements, and [provenance](PROVENANCE.md) for AI assistance. [Portfolio navigation](https://github.com/jmsmarrelli/basketball-analytics).

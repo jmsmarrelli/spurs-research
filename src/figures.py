@@ -36,6 +36,7 @@ plt.rcParams.update(
         "figure.facecolor": "white",
         "axes.facecolor": "white",
         "svg.fonttype": "none",
+        "svg.hashsalt": "basketball-portfolio",
     }
 )
 
@@ -53,6 +54,8 @@ def save(fig, name, caption):
         bbox_inches="tight",
         metadata={"Creator": None, "Date": None, "Description": caption},
     )
+    svg = ROOT / f"figures/{name}.svg"
+    svg.write_text("\n".join(line.rstrip() for line in svg.read_text().splitlines()) + "\n")
     plt.close(fig)
 
 
@@ -341,6 +344,8 @@ def run():
         "playoff_shotmap",
         "Shot locations from the NBA feed. Court is a reference diagram; dots overlap and are not density estimates.",
     )
+    from tools.feature_charts import main as feature_charts
+    feature_charts()
     return 9
 
 
